@@ -1,0 +1,158 @@
+baseURL = "http://example.org/"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
+title = "Gabriel Magnago"
+
+
+# Change the default theme to be use when building the site with Hugo
+
+theme = "DoIt"
+enableEmoji = true
+
+[params]
+  # DoIt theme version
+  version = "0.2.X"
+  # DoIt CHANGED | 0.2.11 site default theme ("light", "dark", "black", "auto")
+  defaultTheme = "dark"
+
+# Header config
+# 页面头部导航栏配置
+[header]
+  # desktop header mode ("fixed", "normal", "auto")
+  desktopMode = "fixed"
+  # mobile header mode ("fixed", "normal", "auto")
+  mobileMode = "auto"
+  # theme change mode ("switch", "select")
+  themeChangeMode = "switch"
+  # Header title config
+  [header.title]
+    # URL of the LOGO
+    # LOGO 的 URL
+    logo = ""
+    # title name
+    # 标题名称
+    name = "DoIt"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = "<i class='far fa-edit fa-fw'></i>"
+    # you can add extra information after the name (HTML format is supported), such as icons
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    # whether to use typeit animation for title name
+    # 是否为标题显示打字机动画
+    typeit = true
+
+# Footer config
+
+[menu]
+  [[menu.main]]
+  
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "projetos"
+    pre = ""
+    post = ""
+    name = "Projetos"
+    url = "/showcase/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "sobre"
+    pre = ""
+    post = ""
+    name = "Sobre"
+    url = "/sobre/"
+    title = ""
+    weight = 5
+
+[params.home.profile]
+  enable = true
+  # Gravatar Email for preferred avatar in home page
+  gravatarEmail = ""
+  # URL of avatar shown in home page
+  avatarURL = "/images/avatar.webp"
+  title = ""
+  # subtitle shown in home page
+  # 主页显示的网站副标题
+  subtitle = "Criando tudo que dá na telha"
+  # whether to use typeit animation for subtitle
+  # 是否为副标题显示打字机动画
+  typeit = true
+  # whether to show social links
+  # 是否显示社交账号
+  social = true
+  # disclaimer (HTML format is supported)
+  # 免责声明 (支持 HTML 格式)
+  disclaimer = ""
+
+[home]
+  # amount of RSS pages
+  # RSS 文章数目
+  rss = 10
+  # Home page profile
+  # 主页个人信息
+  [home.profile]
+    enable = true
+    # Gravatar Email for preferred avatar in home page
+    # Gravatar 邮箱，用于优先在主页显示的头像
+    gravatarEmail = ""
+    # URL of avatar shown in home page
+    # 主页显示头像的 URL
+    avatarURL = "/images/avatar.webp"
+    # title shown in home page (HTML format is supported)
+    # 主页显示的网站标题 (支持 HTML 格式)
+    title = ""
+    # subtitle shown in home page
+    # 主页显示的网站副标题
+    subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+    # whether to use typeit animation for subtitle
+    # 是否为副标题显示打字机动画
+    typeit = true
+    # whether to show social links
+    # 是否显示社交账号
+    social = true
+    # disclaimer (HTML format is supported)
+    # 免责声明 (支持 HTML 格式)
+    disclaimer = ""
+  # Home page posts
+  # 主页文章列表
+  [home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    # 主页每页显示文章数量
+    paginate = 7
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
