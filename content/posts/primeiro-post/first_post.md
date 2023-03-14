@@ -1,16 +1,16 @@
 ---
-title: "Meu primeiro post"
-subtitle: "começando de algum jeito..."
+title: "Vinyl overtakes CD sales for the first time since 1987"
+subtitle: ""
 date: 2023-01-23
 draft: false
 authors: ["Gabriel Magnago"]
-description: "Discover what the Hugo - DoIt theme is all about and the core-concepts behind it."
+description: "As interest in digital downloads wanes, vinyl record sales continue to grow for the 16th year running, says RIAA"
 
 tags: ["Markdown", "HTML"]
 categories: ["documentation"]
 
-featuredImage: "/posts/primeiro-post/laptop-vintage.webp"
-featuredImagePreview: "/posts/primeiro-post/laptop-vintage.webp"
+featuredImage: "/posts/primeiro-post/collage_test.jpg"
+featuredImagePreview: "/posts/primeiro-post/collage_test.jpg"
 
 
 hiddenFromHomePage: false
@@ -25,7 +25,7 @@ code:
 
 ---
 
-Discover what the Hugo - DoIt theme is all about and the core-concepts behind it.
+As interest in digital downloads wanes, vinyl record sales continue to grow for the 16th year running, says RIAA
 <!--more-->
 
 
