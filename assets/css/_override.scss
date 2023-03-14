@@ -1,0 +1,39 @@
+// ==============================
+// Override Variables
+// 覆盖变量
+// ==============================
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700&display=swap&subset=latin-ext');
+$code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+$h1-font-family:Space Grotesk, Roboto;
+$h1-font-weight: 700;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+$global-font-family: IBM Plex Mono,system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+$global-font-weight: 400;
+
+
+
+//fonte de menubar em negrito
+.menu-item{
+    font-weight: bold;
+}
+
+// Mudando fonte de post h2 do titulo
+.single-subtitle{
+    font-family:$h1-font-family;
+    text-align: center;
+}
+
+
+// Mudando fonte de todos os titulos
+h1{
+    font-family:$h1-font-family;
+    font-weight: $h1-font-weight;
+    text-align: center;
+}
+
+
+    
